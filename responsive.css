@@ -1,0 +1,111 @@
+@media (min-width: 1024px) {
+	.capa7 {
+    padding: 3%;
+		height: 90vh;
+    align-items: center;
+	}
+  .container{
+    padding-top: 30px;
+  }
+	.capa7 img {
+		height: 400px;
+		object-fit: contain;
+	}
+	.capa7 button {
+    margin-top: 2rem;
+		width: 50%;
+    padding: 10px;
+    cursor:pointer;
+	}
+	
+  .capa6 {
+		height: 90vh;
+    align-items: center;
+	}
+	.capa6 img {
+		height: 400px;
+		object-fit: contain;
+	}
+	.capa6 button {
+    margin-top: 2rem;
+		width: 50%;
+    padding: 10px;
+    cursor:pointer;
+	}
+
+  .capa5 {
+		height: 90vh;
+    align-items: center;
+	}
+	.capa5 img {
+		height: 400px;
+		object-fit: contain;
+	}
+	.capa5 button {
+    margin-top: 2rem;
+		width:50%;
+    padding: 10px;
+    cursor:pointer;
+  }
+
+   .capa4 {
+		height: 90vh;
+    align-items: center;
+	}
+	.capa4 img {
+		height: 400px;
+		object-fit: contain;
+	}
+	.capa4 button {
+    margin-top: 2rem;
+		width:50%;
+    padding: 10px;
+    cursor:pointer;
+  }
+
+   .capa3 {
+		height: 90vh;
+    align-items: center;
+	}
+	.capa3 img {
+		height: 400px;
+		object-fit: contain;
+	}
+	.capa3 button {
+    margin-top: 2rem;
+		width:50%;
+    padding: 10px;
+    cursor:pointer;
+  }
+
+   .capa2_texto {
+		height: 90vh;
+    align-items: center;
+	}
+	.capa2_texto img {
+		height: 400px;
+		object-fit: contain;
+	}
+	.capa2_texto button {
+    margin-top: 2rem;
+		width:50%;
+    padding: 10px;
+    cursor:pointer;
+  }
+
+
+   .capa1_nelson {
+		height: 90vh;
+    align-items: center;
+	}
+	.capa1_nelson img {
+		height: 400px;
+		object-fit: contain;
+	}
+	.capa1_nelson button {
+    margin-top: 2rem;
+		width:50%;
+    cursor:pointer;
+  }
+
+}

@@ -1,0 +1,365 @@
+:root {
+	--background-color: #f9e46e;
+	--card-color: #fab800;
+}
+*{
+  border: 0px;
+  padding: 0px;
+	box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+	background-color: var(--background-color);
+}
+nav{
+  position: absolute;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+.container > p{
+  margin-top: 3rem;
+  width: 45%;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: #555555;
+}
+.section {
+  margin-top: 1rem;
+	display: block;
+	background-color: var(--card-color);
+	width: 90%;
+  height: 50%;
+  padding: 2rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.section >p{
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.section h3{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.265em;
+}
+.autor{
+  display: flex;
+}
+.autor > p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+.autor img{
+  object-fit:contain;
+}
+.btn_main{
+  background-color: var(--card-color);
+  border: none;
+  margin-top: 3rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  padding: 10px 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* PRIMERA CAPA */
+.capa1_nelson{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.738);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  height: 75%;
+  width: 95%;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.capa1_nelson.hidden{
+  display: none;
+}
+.capa1_nelson p{
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.capa1_nelson button{
+  background: #FFFFFF;
+  border-radius: 15px;
+  height: 36px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+/* SEGUNDA CAPA */
+.capa2_texto{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.738);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  height: 75%;
+  width: 95%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.capa2_texto.hidden{
+  display: none;
+}
+.capa2_texto p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.capa2_texto button{
+  background: #FFFFFF;
+  border-radius: 15px;
+  height: 36px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+/* TERCERA CAPA */
+.capa3{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.738);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  height: 75%;
+  width: 95%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.capa3.hidden{
+  display: none;
+}
+.capa3 p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.capa3 button{
+  background: #FFFFFF;
+  border-radius: 15px;
+  height: 36px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  }
+
+/* CUARTA CAPA */
+.capa4{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.738);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  height: 75%;
+  width: 95%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.capa4 p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.capa4.hidden{
+  display: none;
+}
+
+.capa4 button{
+  background: #FFFFFF;
+  border-radius: 15px;
+  height: 36px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  }
+
+/* QUINTA CAPA */
+.capa5{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.738);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  height: 75%;
+  width: 95%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.capa5 p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+.capa5.hidden{
+  display: none;
+}
+
+.capa5 button{
+  background: #FFFFFF;
+  border-radius: 15px;
+  height: 36px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  }
+
+/* SEXTA CAPA */
+.capa6{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.738);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  height: 75%;
+  width: 95%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.capa6.hidden{
+  display: none;
+}
+.capa6 p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.capa6 button{
+  background: #FFFFFF;
+  border-radius: 15px;
+  height: 36px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* SEPTIMA CAPA */
+.capa7{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.738);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  height: 75%;
+  width: 95%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.capa7.hidden{
+  display: none;
+}
+
+.capa7 p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+.capa7 button{
+  background: #FFFFFF;
+  border-radius: 15px;
+  height: 36px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
